@@ -28,7 +28,7 @@ export default function BookingsPage() {
             ...booking,
             startDateFormatted: startDate.toLocaleDateString(),
             endDateFormatted: endDate.toLocaleDateString(),
-            totalPrice: booking.people * (booking.place?.pricePerPerson + 0.99 || 0)
+            totalPrice: Math.round(booking.people * (booking.place?.pricePerPerson + 0.99 || 0) * 100) / 100
           };
         });
         setBookings(processedBookings);
