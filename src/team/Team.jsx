@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Team.css';
 import TopNav from '../subpageheader/TopNav';
+import { Link } from 'react-router-dom';
 
 const team = [
   {
@@ -63,8 +64,8 @@ function Team() {
           <img src={member.image} alt={member.name} className="profile-pic" />
           <h3>{member.name}</h3>
           <p>Position: {member.position}</p>
-          <p>Email: <a href={`mailto:${member.email}`}>{member.email}</a></p>
-          <p>Phone: <a href={`tel:${member.phone}`}>{member.phone}</a></p>
+          <p>Email: <Link to={`mailto:${member.email}`}>{member.email}</Link></p>
+          <p>Phone: <Link to={`tel:${member.phone}`}>{member.phone}</Link></p>
         </div>
 
         <button onClick={next} className="arrow-btn">→</button>

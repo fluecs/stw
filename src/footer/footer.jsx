@@ -1,14 +1,15 @@
 import React from "react";
 import "./foot.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
 <nav className="footer-nav">
-        <a href="/stw/">Home</a>
-        <a href="/stw/locations">Destinations</a>
-        <a href="/stw/activities">Activities</a>
-        <a href="/stw/team">Meet the Teams</a>
+        <Link to="/">Home</Link>
+        <Link to="/locations">Destinations</Link>
+        <Link to="/activities">Activities</Link>
+        <Link to="/team">Meet the Teams</Link>
       </nav>
 
 <div className="footer-box">

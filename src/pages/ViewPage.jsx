@@ -72,7 +72,7 @@ export default function ViewPage() {
 			))}
 		</div>
       <div style={{ width: '100%', display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
-        <Link to={`/stw/book?id=${place.id}`} style={{textDecoration: 'none'}}>
+        <Link to={`/book?id=${place.id}`} style={{textDecoration: 'none'}}>
           <button className="book-now-btn">Book Now</button>
         </Link>
       </div>

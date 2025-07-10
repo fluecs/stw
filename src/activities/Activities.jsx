@@ -35,7 +35,7 @@ export default function Activities() {
         {places.map((place, idx) => (
           <Link
             className="place place-large"
-            to={`/stw/act?id=${place.id}`}
+            to={`/act?id=${place.id}`}
             key={place.id || idx}
           >
             <div>
@@ -50,10 +50,10 @@ export default function Activities() {
       </div>
       <div class="section-divider"></div>
       <div class="see-more-holder">
-        <a class="see-more" href="/stw/activities">
+        <Link className="see-more" to="/activities">
           See More Activities&nbsp;&nbsp;
           <FontAwesomeIcon icon={faArrowRight} />
-        </a>
+        </Link>
       </div>
     </section>
   );

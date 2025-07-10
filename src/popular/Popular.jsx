@@ -31,7 +31,7 @@ export default function Popular() {
       <div className="section-divider"></div>
       <div className="locations">
         {places.map((place, idx) => (
-          <Link className="place" to={`/stw/view?id=${place.id}`} key={place.id || idx}>
+          <Link className="place" to={`/view?id=${place.id}`} key={place.id || idx}>
             <div>
               <div className="place-top">
                 <img src={place.imageURL} alt={place.title} />
@@ -52,7 +52,7 @@ export default function Popular() {
       </div>
       <div className="section-divider"></div>
       <div className="see-more-holder">
-        <Link className="see-more" to="/stw/locations">
+        <Link className="see-more" to="/locations">
           See More Locations&nbsp;&nbsp;
           <FontAwesomeIcon icon={faArrowRight} />
         </Link>

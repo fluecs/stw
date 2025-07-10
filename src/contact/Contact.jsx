@@ -7,6 +7,7 @@ import {
   faEnvelope,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -52,10 +53,10 @@ export default function Contact() {
       </div>
       <div class="section-divider"></div>
       <div class="see-more-holder">
-        <a class="see-more" href="/stw/team">
+        <Link className="see-more" to="/team">
           Meet the Team&nbsp;&nbsp;
           <FontAwesomeIcon icon={faArrowRight} />
-        </a>
+        </Link>
       </div>
     </section>
   );

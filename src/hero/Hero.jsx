@@ -66,7 +66,7 @@ export default function Hero() {
           <form id="searchForm" className="hero-search-bar" onSubmit={e => {
             e.preventDefault();
             if (searchValue.trim()) {
-              navigate(`/stw/locations?search=${encodeURIComponent(searchValue.trim())}`);
+              navigate(`/locations?search=${encodeURIComponent(searchValue.trim())}`);
             }
           }}>
             <input

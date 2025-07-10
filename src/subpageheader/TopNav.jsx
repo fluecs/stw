@@ -14,14 +14,14 @@ export default function TopNav() {
     <div className="topnav">
       <div className="topnav-wrapper">
         <div className="nav-left">
-          <Link className="navbutton" to="/stw/">
-            <img src="/stw/logo.png" alt="Logo" />
+          <Link className="navbutton" to="/">
+            <img src="/logo.png" alt="Logo" />
           </Link>
         </div>
         <div className="nav-right">
           {user ? (
             <div className="user-section">
-              <Link to="/stw/bookings" className="auth-button view-bookings-button">
+              <Link to="/bookings" className="auth-button view-bookings-button">
                 View Bookings
               </Link>
               <button onClick={handleLogout} className="auth-button logout-button">
@@ -30,10 +30,10 @@ export default function TopNav() {
             </div>
           ) : (
             <div className="auth-buttons">
-              <Link to="/stw/login" className="auth-button signin-button">
+              <Link to="/login" className="auth-button signin-button">
                 Sign In
               </Link>
-              <Link to="/stw/register" className="auth-button signup-button">
+              <Link to="/register" className="auth-button signup-button">
                 Sign Up
               </Link>
             </div>
