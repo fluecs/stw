@@ -1,0 +1,38 @@
+footer {
+	background: linear-gradient(135deg, #2770a1 0%, #153e5a 100%);
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	padding-inline: 0;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 0.9rem;
+	box-shadow: 0px 0px 1em black;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.footer-nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 200ms ease-in-out;
+	padding: 1rem;
+	padding-inline: 2.5rem;
+}
+
+.footer-nav a:hover {
+	color: #c3d3cb;
+	scale: 1.15;
+	filter: brightness(1.25);
+}
+
+.footer-copy {
+	font-size: 0.9rem;
+	color: #888;
+}
