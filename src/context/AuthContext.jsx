@@ -85,9 +85,14 @@ export const AuthProvider = ({ children }) => {
       const data = await response.json();
 
       if (response.ok) {
-        localStorage.setItem('token', data.token);
-        await fetchProfile(data.token);
-        return { success: true };
+          // Automatically log in after successful registration
+        const loginResult = await login(username, password);
+        if (loginResult.success) {
+          return { success: true };
+        } else {
+          // Registration succeeded but login failed
+          return { success: false, error: 'Registration successful but automatic login failed. Please log in manually.' };
+        }
       } else {
         return { success: false, error: data.message || 'Registration failed' };
       }
