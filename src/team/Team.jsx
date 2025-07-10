@@ -9,35 +9,35 @@ const team = [
     name: 'Ilia Videv',
     position: 'Chief Executive Officer',
     email: 'iv@seetheworld.com',
-    phone: '+123456780',
+    phone: '+359 88 647 3921',
     image: 'https://randomuser.me/api/portraits/men/32.jpg'
   },
   {
     name: 'Martin Tomov',
     position: 'Chief Operating Officer',
     email: 'mt@seetheworld.com',
-    phone: '+123456789',
+    phone: '+359 98 205 7834',
     image: 'https://randomuser.me/api/portraits/men/65.jpg'
   },
   {
     name: 'Martin Kolev',
     position: 'Chief Designer',
     email: 'mk@seetheworld.com',
-    phone: '+123456781',
+    phone: '+359 88 931 4756',
     image: 'https://randomuser.me/api/portraits/men/64.jpg'
   },
   {
     name: 'Yoana Yordanova',
     position: 'Chief Marketing Officer',
     email: 'yy@seetheworld.com',
-    phone: '+123456789',
+    phone: '+359 98 742 1598',
     image: 'https://randomuser.me/api/portraits/women/41.jpg'
   },
   {
     name: 'Nikolay Mihov',
     position: 'Chief Visionary',
     email: 'nm@seetheworld.com',
-    phone: '+123456781',
+    phone: '+359 88 517 9043',
     image: 'https://randomuser.me/api/portraits/men/12.jpg'
   }
 ];
