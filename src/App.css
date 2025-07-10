@@ -986,4 +986,7 @@ section:last-of-type {
 	.footer-nav {
 		font-size: 75%;
 	}
+	.footer-nav a {
+		padding-inline: 1rem;
+	}
 }
