@@ -287,6 +287,7 @@ bold {
 	height: 16em;
 	object-fit: cover;
 	transition: all 200ms ease-in-out;
+	width: 100%;
 }
 
 .place:hover .place-top img {
@@ -305,6 +306,7 @@ bold {
 	height: 37.5em;
 	object-fit: cover;
 	transition: all 200ms ease-in-out;
+	width: 100%;
 }
 
 .title {
