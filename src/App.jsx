@@ -1,7 +1,7 @@
 import './App.css'
 import TopNav from "./header/TopNav";
 import { AuthProvider } from "./context/AuthContext";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Home from "./home/Home";
 import Locations from "./location/Locations";
 import ActivitiesPage from "./pages/ActivitiesPage";
