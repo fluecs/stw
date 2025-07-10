@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './team.css';
 import TopNav from '../subpageheader/TopNav';
 import { Link } from 'react-router-dom';
+import Footer from '../footer/Footer';
 
 const team = [
   {
@@ -71,6 +72,8 @@ function Team() {
         <button onClick={next} className="arrow-btn">→</button>
       </div>
     </div>
+
+      <Footer />
     </>
   );
 }
