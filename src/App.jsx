@@ -2,6 +2,7 @@ import './App.css'
 import TopNav from "./header/TopNav";
 import { AuthProvider } from "./context/AuthContext";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./home/Home";
 import Locations from "./location/Locations";
 import ActivitiesPage from "./pages/ActivitiesPage";
