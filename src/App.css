@@ -223,7 +223,7 @@ body {
 	border-radius: 1rem;
 	color: #eee;
 	max-width: 600px;
-	margin-left: 3rem;
+	margin-inline: 3rem;
 }
 
 .hero-goals strong {
@@ -554,6 +554,7 @@ section {
 
 .contact-info {
 	max-width: 30rem;
+	width: 100%;
 }
 
 .contact-info h3 {
@@ -972,4 +973,14 @@ section:last-of-type {
 .view-bookings-button:hover {
   filter: brightness(1.1);
   transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+	.textbutton {
+		display: none !important;
+	}
+	
+	.hero-image {
+		scale: 0.6;
+	}
 }
