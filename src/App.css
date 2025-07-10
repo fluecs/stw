@@ -983,4 +983,7 @@ section:last-of-type {
 	.hero-image {
 		scale: 0.6;
 	}
+	.footer-nav {
+		font-size: 75%;
+	}
 }
