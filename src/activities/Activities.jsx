@@ -50,7 +50,7 @@ export default function Activities() {
       </div>
       <div class="section-divider"></div>
       <div class="see-more-holder">
-        <a class="see-more" href="/activities">
+        <a class="see-more" href="/stw/activities">
           See More Activities&nbsp;&nbsp;
           <FontAwesomeIcon icon={faArrowRight} />
         </a>

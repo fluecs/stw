@@ -50,7 +50,7 @@ export default function ActPage() {
 							console.log(place)
 						))}
 						{places.map((place, idx) => (
-							<Link to={`/view?id=${place.id}`}>
+							<Link to={`/stw/view?id=${place.id}`}>
 								<div className="place" key={place.id || idx}>
 									<div>
 										<div className="place-top">

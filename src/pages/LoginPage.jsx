@@ -58,7 +58,7 @@ export default function LoginPage() {
           </button>
         </form>
         <p className="auth-link">
-          Don't have an account? <Link to="/register">Sign Up</Link>
+          Don't have an account? <Link to="/stw/register">Sign Up</Link>
         </p>
       </div>
     </div>
