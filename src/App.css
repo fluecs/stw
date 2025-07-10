@@ -989,7 +989,7 @@ section:last-of-type {
 	.footer-nav a {
 		padding-inline: 1rem !important;
 	}
-	.contact-item h4 {
+	.contact-item h4, .contact-item p {
 		font-size: 50%;
 	}
 }
