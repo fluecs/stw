@@ -35,7 +35,7 @@ export default function Activities() {
         {places.map((place, idx) => (
           <Link
             className="place place-large"
-            to={`/act?id=${place.id}`}
+            to={`/stw/act?id=${place.id}`}
             key={place.id || idx}
           >
             <div>

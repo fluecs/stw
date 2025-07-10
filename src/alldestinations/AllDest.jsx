@@ -82,7 +82,7 @@ export default function AllDest() {
         {filteredAndSortedPlaces.map((place, idx) => (
           <Link
             className="place"
-            to={`/view?id=${place.id}`}
+            to={`/stw/view?id=${place.id}`}
             key={place.id || idx}
           >
             <div>

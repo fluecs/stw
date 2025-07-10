@@ -52,7 +52,7 @@ export default function Contact() {
       </div>
       <div class="section-divider"></div>
       <div class="see-more-holder">
-        <a class="see-more" href="/team">
+        <a class="see-more" href="/stw/team">
           Meet the Team&nbsp;&nbsp;
           <FontAwesomeIcon icon={faArrowRight} />
         </a>
