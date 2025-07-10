@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Team.css';
+import './team.css';
 import TopNav from '../subpageheader/TopNav';
 import { Link } from 'react-router-dom';
 

@@ -15,7 +15,7 @@ export default function TopNav() {
       <div className="topnav-wrapper">
         <div className="nav-left">
           <Link className="navbutton" to="/">
-            <img src="/logo.png" alt="Logo" />
+            <img src="./logo.png" alt="Logo" />
           </Link>
         </div>
         <div className="nav-right">

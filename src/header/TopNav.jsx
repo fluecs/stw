@@ -41,7 +41,7 @@ export default function TopNav() {
       <div className="topnav-wrapper">
         <div className="nav-left">
           <Link className="navbutton" to="">
-            <img src="/logo.png" alt="Logo" />
+            <img src="./logo.png" alt="Logo" />
           </Link>
           <button className="navbutton textbutton" onClick={() => handleNavClick('home')}>
             <p>Why Choose Us</p>
