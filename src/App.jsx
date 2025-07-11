@@ -57,6 +57,13 @@ export default function App() {
           console.log('Alt+4 pressed but user not logged in');
         }
       }
+      
+      // Alt+5 - MTT
+      if (e.altKey && e.key === '5') {
+        e.preventDefault();
+        console.log('Alt+5 pressed - navigating to meet the team');
+        navigate('/team');
+      }
     };
 
     document.addEventListener('keydown', handleKeyDown);
