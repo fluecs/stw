@@ -55,6 +55,7 @@ export default function App() {
           navigate('/bookings');
         } else {
           console.log('Alt+4 pressed but user not logged in');
+          navigate('/login');
         }
       }
       
